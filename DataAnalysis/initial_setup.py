@@ -21,7 +21,7 @@ relevant_columns_cleaned = {
     "In which state do you live?": "living_state",
     "nationality": "nationality",
 
-    "Since graduating from Tecnologico de Monterrey, have you founded a company, either as part of the group of partners or as owner? By partner we mean those who contributed money and/or work to start the company": "founded_company",
+    "founded_company": "founded_company",
     "How many organizations have you founded?": "num_founded",
     "How many are still in operation (actives)?": "num_active",
     "area_org_1": "org1_area",
@@ -33,7 +33,7 @@ relevant_columns_cleaned = {
     "AGE": "age",
     "How many hours do you usually work per week?": "hours_worked",
     "Gender": "gender",
-    "nivel_descripciï¿½n": "education_level",
+    "nivel_descripcion": "education_level",
     "Have you completed postgraduate studies?": "postgrad"
 }
 
