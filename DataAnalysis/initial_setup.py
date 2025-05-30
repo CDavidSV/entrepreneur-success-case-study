@@ -41,4 +41,7 @@ relevant_columns_cleaned = {
 
 df = pd.read_csv("./DataAnalysis/data.csv", encoding='utf-8', low_memory=False)
 df = df.rename(columns=relevant_columns_cleaned)[list(relevant_columns_cleaned.values())]
-show(df)
+
+founders_df = df[df["founded_company"].str.lower() == "yes"]
+
+show(founders_df)
